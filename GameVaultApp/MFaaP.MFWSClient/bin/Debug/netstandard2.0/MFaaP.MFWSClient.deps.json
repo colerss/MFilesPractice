@@ -1,0 +1,204 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "MFaaP.MFWSClient/1.1.1-alpha": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Shell.Interop.11.0": "16.9.31023.347",
+          "NETStandard.Library": "2.0.3",
+          "RestSharp": "106.11.7"
+        },
+        "runtime": {
+          "MFaaP.MFWSClient.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll": {
+            "assemblyVersion": "7.1.40304.0",
+            "fileVersion": "7.10.6070.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {},
+      "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop": "16.9.31023.347"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.dll": {
+            "assemblyVersion": "7.1.40304.0",
+            "fileVersion": "7.10.6071.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.8.0": "16.9.31023.347"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.30319.1"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.10.0": "16.9.31023.347"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.61030.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop.8.0": "16.9.31023.347"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.50727.938"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+        "dependencies": {
+          "Microsoft.VisualStudio.OLE.Interop": "16.9.31023.347",
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.dll": {
+            "assemblyVersion": "7.1.40304.0",
+            "fileVersion": "7.10.6070.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop": "16.9.31023.347"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.50727.932"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "RestSharp/106.11.7": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.7.0",
+            "fileVersion": "106.11.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MFaaP.MFWSClient/1.1.1-alpha": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EzqgZmrNeQ4gnlr5NokdvP/5gyKtoigwXGI+l81ZZ4NfTInri+kazKsQMOzDqDiHDVuH5ZbsQ3OkpSUCOn9E+w==",
+      "path": "microsoft.visualstudio.ole.interop/16.9.31023.347",
+      "hashPath": "microsoft.visualstudio.ole.interop.16.9.31023.347.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zDb7MrGyE5V5X91sul3cM5vEpiXL94fsxE+HITpBzsZwiOpu6um6S+aJV+lPL0RCddblj+tu1yfrlowm5rtSRQ==",
+      "path": "microsoft.visualstudio.sdk.embedinteroptypes/15.0.34",
+      "hashPath": "microsoft.visualstudio.sdk.embedinteroptypes.15.0.34.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/yD7EyLAIM9eqIAwcmcj3v75oRjqoKHFo683HDsUOmGPpYPCeAucj2bXdKLIaUECJf98NUnpa1/3WqoIRNc+uQ==",
+      "path": "microsoft.visualstudio.shell.interop/16.9.31023.347",
+      "hashPath": "microsoft.visualstudio.shell.interop.16.9.31023.347.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sZ3xsvqzauYz+39XugR2jocsL3JirZ5qd6hvLwgq6O3MwP4Jwhwa2Zedx6Mq2+Ka0aPmihun3wvTNvZ+Dsi9ug==",
+      "path": "microsoft.visualstudio.shell.interop.10.0/16.9.31023.347",
+      "hashPath": "microsoft.visualstudio.shell.interop.10.0.16.9.31023.347.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qUBlfN9fgwrmyLki2bJjwHSnTXod2aAvGv2NiqLt0hLs3ahK6APvLkfK3k1rcl5W5ws/8M0iqgiwMPVHNsJZVg==",
+      "path": "microsoft.visualstudio.shell.interop.11.0/16.9.31023.347",
+      "hashPath": "microsoft.visualstudio.shell.interop.11.0.16.9.31023.347.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m7NGLcG0vs8z1W2GW2mJJ5ukQk6WYkfS6SnS7y1EyVzEELiXmP1NyFrh2WgYaIujwOA1F+53IXXRblI/floT1Q==",
+      "path": "microsoft.visualstudio.shell.interop.8.0/16.9.31023.347",
+      "hashPath": "microsoft.visualstudio.shell.interop.8.0.16.9.31023.347.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k/i8FtalK2RK9q+gxh6ol2Xdfua/gAdpbL+PLNO8xSYiiSLjiDqiWghdSJuhHzu8czDrukwuUAGNNRp5g79aWA==",
+      "path": "microsoft.visualstudio.textmanager.interop/16.9.31023.347",
+      "hashPath": "microsoft.visualstudio.textmanager.interop.16.9.31023.347.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TFYly4agtv62DI3w4pvWFJnCuDA0GitYeD4ZPCKiWyvBg6n7dQNGmx7cADjiw7tCG4WSypJPRzfz0Dv1TqqT2Q==",
+      "path": "microsoft.visualstudio.textmanager.interop.8.0/16.9.31023.347",
+      "hashPath": "microsoft.visualstudio.textmanager.interop.8.0.16.9.31023.347.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "RestSharp/106.11.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "path": "restsharp/106.11.7",
+      "hashPath": "restsharp.106.11.7.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameVaultApp", "GameVaultApp\GameVaultApp.csproj", "{CFE4AF7B-E02F-413F-B7D4-A9341E455F68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MFaaP.MFWSClient", "MFaaP.MFWSClient\MFaaP.MFWSClient.csproj", "{87A357BF-B200-48CA-92FD-5BC0A02E483C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFE4AF7B-E02F-413F-B7D4-A9341E455F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE4AF7B-E02F-413F-B7D4-A9341E455F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE4AF7B-E02F-413F-B7D4-A9341E455F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE4AF7B-E02F-413F-B7D4-A9341E455F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A357BF-B200-48CA-92FD-5BC0A02E483C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A357BF-B200-48CA-92FD-5BC0A02E483C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A357BF-B200-48CA-92FD-5BC0A02E483C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A357BF-B200-48CA-92FD-5BC0A02E483C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DAE4316-5083-4691-B012-26D445022F7E}
+	EndGlobalSection
+EndGlobal

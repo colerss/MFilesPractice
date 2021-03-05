@@ -1,0 +1,57 @@
+﻿@model GameVaultApp.ViewModels.TestViewModel
+@using GameVaultApp.Data;
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-action="SortByClass" asp-route-sortOrder="Title"> @Html.DisplayNameFor(model => model.Objects[0].Title)</a>
+
+                </th>
+                @foreach (var item in Model.Objects[0].Properties)
+                {
+                    if (item.PropertyDef > 1000 && !string.IsNullOrEmpty(item.TypedValue.DisplayValue))
+                    {
+                    <th >
+                        <a asp-action="SortByClass" asp-route-sortOrder="@item.PropertyDef">
+                            @MFilesAPI.instance.GetPropDefDisplay(item):
+                        </a>
+                        
+                    </th>
+                    }
+                }
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Objects)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+
+
+                @foreach (var property in item.Properties)
+                {
+                    if (property.PropertyDef > 1000 && !string.IsNullOrEmpty(property.TypedValue.DisplayValue))
+                    {
+                        <td>
+                             @Html.DisplayFor(modelItem => property.TypedValue.DisplayValue)
+                        </td>
+                        }
+                    }
+          
+            </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>

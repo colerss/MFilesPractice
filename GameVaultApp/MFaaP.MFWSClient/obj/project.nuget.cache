@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "v70YYJxa/y1MzM8pUY0PJm9fKjwTZX0hIQ38DK+1AqNSHL4UB73lqvkx3GW3fBqqo/dG1d0DbZFxN0FvISQE4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\MFaaP.MFWSClient\\MFaaP.MFWSClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.9.31023.347\\microsoft.visualstudio.ole.interop.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.sdk.embedinteroptypes\\15.0.34\\microsoft.visualstudio.sdk.embedinteroptypes.15.0.34.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop\\16.9.31023.347\\microsoft.visualstudio.shell.interop.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop.10.0\\16.9.31023.347\\microsoft.visualstudio.shell.interop.10.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop.11.0\\16.9.31023.347\\microsoft.visualstudio.shell.interop.11.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop.8.0\\16.9.31023.347\\microsoft.visualstudio.shell.interop.8.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.textmanager.interop\\16.9.31023.347\\microsoft.visualstudio.textmanager.interop.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.textmanager.interop.8.0\\16.9.31023.347\\microsoft.visualstudio.textmanager.interop.8.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

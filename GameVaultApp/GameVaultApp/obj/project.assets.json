@@ -1,0 +1,576 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.AspNetCore.JsonPatch/3.1.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.JsonPatch": "3.1.12",
+          "Newtonsoft.Json": "12.0.2",
+          "Newtonsoft.Json.Bson": "1.0.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.10.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.OLE.Interop": "16.9.31023.347",
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "RestSharp/106.11.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "MFaaP.MFWSClient/1.1.1-alpha": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Shell.Interop.11.0": "16.9.31023.347",
+          "RestSharp": "106.11.7"
+        },
+        "compile": {
+          "bin/placeholder/MFaaP.MFWSClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MFaaP.MFWSClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.JsonPatch/3.1.12": {
+      "sha512": "8Qpg3ZOJIm1z6E19oFVEyhNhWXcm0s2bP5WHoaWt+tvd5xNcE57LDC0L84pTgwiOmD6K2pZbwvL3Q0ltnp5f3w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.jsonpatch/3.1.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
+        "microsoft.aspnetcore.jsonpatch.3.1.12.nupkg.sha512",
+        "microsoft.aspnetcore.jsonpatch.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.12": {
+      "sha512": "EDm9omJq/iTQTeqTm7tBk7+egu3GM2FYSLaWE4gzzAJ49yJrN+ofQnmp+51OI8Ic3G4RzaH7lW0mikljnt5gxw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/3.1.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.3.1.12.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+      "sha512": "EzqgZmrNeQ4gnlr5NokdvP/5gyKtoigwXGI+l81ZZ4NfTInri+kazKsQMOzDqDiHDVuH5ZbsQ3OkpSUCOn9E+w==",
+      "type": "package",
+      "path": "microsoft.visualstudio.ole.interop/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
+        "lib/net45/Microsoft.VisualStudio.OLE.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.xml",
+        "microsoft.visualstudio.ole.interop.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.ole.interop.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {
+      "sha512": "zDb7MrGyE5V5X91sul3cM5vEpiXL94fsxE+HITpBzsZwiOpu6um6S+aJV+lPL0RCddblj+tu1yfrlowm5rtSRQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.sdk.embedinteroptypes/15.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets",
+        "microsoft.visualstudio.sdk.embedinteroptypes.15.0.34.nupkg.sha512",
+        "microsoft.visualstudio.sdk.embedinteroptypes.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+      "sha512": "/yD7EyLAIM9eqIAwcmcj3v75oRjqoKHFo683HDsUOmGPpYPCeAucj2bXdKLIaUECJf98NUnpa1/3WqoIRNc+uQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.xml",
+        "microsoft.visualstudio.shell.interop.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+      "sha512": "sZ3xsvqzauYz+39XugR2jocsL3JirZ5qd6hvLwgq6O3MwP4Jwhwa2Zedx6Mq2+Ka0aPmihun3wvTNvZ+Dsi9ug==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop.10.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.xml",
+        "microsoft.visualstudio.shell.interop.10.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.10.0.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+      "sha512": "qUBlfN9fgwrmyLki2bJjwHSnTXod2aAvGv2NiqLt0hLs3ahK6APvLkfK3k1rcl5W5ws/8M0iqgiwMPVHNsJZVg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop.11.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.xml",
+        "microsoft.visualstudio.shell.interop.11.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.11.0.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+      "sha512": "m7NGLcG0vs8z1W2GW2mJJ5ukQk6WYkfS6SnS7y1EyVzEELiXmP1NyFrh2WgYaIujwOA1F+53IXXRblI/floT1Q==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop.8.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.xml",
+        "microsoft.visualstudio.shell.interop.8.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.8.0.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+      "sha512": "k/i8FtalK2RK9q+gxh6ol2Xdfua/gAdpbL+PLNO8xSYiiSLjiDqiWghdSJuhHzu8czDrukwuUAGNNRp5g79aWA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.textmanager.interop/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.dll",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.xml",
+        "microsoft.visualstudio.textmanager.interop.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.textmanager.interop.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+      "sha512": "TFYly4agtv62DI3w4pvWFJnCuDA0GitYeD4ZPCKiWyvBg6n7dQNGmx7cADjiw7tCG4WSypJPRzfz0Dv1TqqT2Q==",
+      "type": "package",
+      "path": "microsoft.visualstudio.textmanager.interop.8.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.dll",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.xml",
+        "microsoft.visualstudio.textmanager.interop.8.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.textmanager.interop.8.0.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "sha512": "QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "type": "package",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net45/Newtonsoft.Json.Bson.dll",
+        "lib/net45/Newtonsoft.Json.Bson.pdb",
+        "lib/net45/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
+        "newtonsoft.json.bson.1.0.2.nupkg.sha512",
+        "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "RestSharp/106.11.7": {
+      "sha512": "NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "type": "package",
+      "path": "restsharp/106.11.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.11.7.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
+    "MFaaP.MFWSClient/1.1.1-alpha": {
+      "type": "project",
+      "path": "../MFaaP.MFWSClient/MFaaP.MFWSClient.csproj",
+      "msbuildProject": "../MFaaP.MFWSClient/MFaaP.MFWSClient.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MFaaP.MFWSClient >= 1.1.1-alpha",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.12",
+      "Microsoft.VisualStudio.Shell.Interop.11.0 >= 16.9.31023.347",
+      "RestSharp >= 106.11.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vdb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\GameVaultApp\\GameVaultApp.csproj",
+      "projectName": "GameVaultApp",
+      "projectPath": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\GameVaultApp\\GameVaultApp.csproj",
+      "packagesPath": "C:\\Users\\vdb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\GameVaultApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\MFaaP.MFWSClient\\MFaaP.MFWSClient.csproj": {
+              "projectPath": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\MFaaP.MFWSClient\\MFaaP.MFWSClient.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+            "target": "Package",
+            "version": "[3.1.12, )"
+          },
+          "Microsoft.VisualStudio.Shell.Interop.11.0": {
+            "target": "Package",
+            "version": "[16.9.31023.347, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

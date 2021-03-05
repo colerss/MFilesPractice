@@ -1,0 +1,74 @@
+﻿@model GameVaultApp.ViewModels.TestViewModel
+@using GameVaultApp.Data;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="sectionSearchbar">
+        <div class="container">
+            <form asp-controller="Home" asp-action="Search" method="get">
+                <div class="btn-toolbar justify-content-center" role="toolbar">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="SearchFor" asp-for="ObjectSearchTitle" />
+                    </div>
+                    <div class="btn-group mr-2" role="group">
+                        <select class="form-control" asp-items="ViewBag.ObjectType" asp-for="ObjectSearchType"></select>
+                    </div>
+                    <div class="col-auto">
+                        <input type="submit" value="Zoeken" class="btn btn-primary" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-action="SortBy" asp-route-sortOrder="Title" 
+                       > @Html.DisplayNameFor(model => model.Objects[0].Title)</a>
+                   
+                </th>
+                <th>
+                    <a asp-action="SortBy" asp-route-sortOrder="ID" 
+                       >  @Html.DisplayNameFor(model => model.Objects[0].DisplayID)</a>
+</th>
+                <th>
+                    <a asp-action="SortBy" asp-route-sortOrder="Version" 
+                       > @Html.DisplayNameFor(model => model.Objects[0].ObjVer.Version)</a>
+                </th>
+                <th>
+                   <a asp-action="SortBy" asp-route-sortOrder="Class" 
+                      > @Html.DisplayNameFor(model => model.Objects[0].Class)</a>
+                </th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Objects)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DisplayID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ObjVer.Version)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Class)
+                </td>
+               
+            </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>

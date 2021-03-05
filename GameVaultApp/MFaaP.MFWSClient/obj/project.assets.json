@@ -1,0 +1,771 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.10.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.OLE.Interop": "16.9.31023.347",
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        }
+      },
+      "RestSharp/106.11.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8": {
+      "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.10.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.OLE.Interop": "16.9.31023.347",
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        }
+      },
+      "RestSharp/106.11.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net452/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      }
+    },
+    ".NETStandard,Version=v2.0": {
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop.10.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.TextManager.Interop.8.0": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.OLE.Interop": "16.9.31023.347",
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.SDK.EmbedInteropTypes": "15.0.34",
+          "Microsoft.VisualStudio.Shell.Interop": "16.9.31023.347"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.dll": {}
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "RestSharp/106.11.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.VisualStudio.OLE.Interop/16.9.31023.347": {
+      "sha512": "EzqgZmrNeQ4gnlr5NokdvP/5gyKtoigwXGI+l81ZZ4NfTInri+kazKsQMOzDqDiHDVuH5ZbsQ3OkpSUCOn9E+w==",
+      "type": "package",
+      "path": "microsoft.visualstudio.ole.interop/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.OLE.Interop.dll",
+        "lib/net45/Microsoft.VisualStudio.OLE.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.xml",
+        "microsoft.visualstudio.ole.interop.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.ole.interop.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.SDK.EmbedInteropTypes/15.0.34": {
+      "sha512": "zDb7MrGyE5V5X91sul3cM5vEpiXL94fsxE+HITpBzsZwiOpu6um6S+aJV+lPL0RCddblj+tu1yfrlowm5rtSRQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.sdk.embedinteroptypes/15.0.34",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets",
+        "microsoft.visualstudio.sdk.embedinteroptypes.15.0.34.nupkg.sha512",
+        "microsoft.visualstudio.sdk.embedinteroptypes.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop/16.9.31023.347": {
+      "sha512": "/yD7EyLAIM9eqIAwcmcj3v75oRjqoKHFo683HDsUOmGPpYPCeAucj2bXdKLIaUECJf98NUnpa1/3WqoIRNc+uQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.xml",
+        "microsoft.visualstudio.shell.interop.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop.10.0/16.9.31023.347": {
+      "sha512": "sZ3xsvqzauYz+39XugR2jocsL3JirZ5qd6hvLwgq6O3MwP4Jwhwa2Zedx6Mq2+Ka0aPmihun3wvTNvZ+Dsi9ug==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop.10.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.10.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.10.0.xml",
+        "microsoft.visualstudio.shell.interop.10.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.10.0.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop.11.0/16.9.31023.347": {
+      "sha512": "qUBlfN9fgwrmyLki2bJjwHSnTXod2aAvGv2NiqLt0hLs3ahK6APvLkfK3k1rcl5W5ws/8M0iqgiwMPVHNsJZVg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop.11.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.11.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.11.0.xml",
+        "microsoft.visualstudio.shell.interop.11.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.11.0.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Shell.Interop.8.0/16.9.31023.347": {
+      "sha512": "m7NGLcG0vs8z1W2GW2mJJ5ukQk6WYkfS6SnS7y1EyVzEELiXmP1NyFrh2WgYaIujwOA1F+53IXXRblI/floT1Q==",
+      "type": "package",
+      "path": "microsoft.visualstudio.shell.interop.8.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.dll",
+        "lib/net45/Microsoft.VisualStudio.Shell.Interop.8.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Shell.Interop.8.0.xml",
+        "microsoft.visualstudio.shell.interop.8.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.shell.interop.8.0.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.TextManager.Interop/16.9.31023.347": {
+      "sha512": "k/i8FtalK2RK9q+gxh6ol2Xdfua/gAdpbL+PLNO8xSYiiSLjiDqiWghdSJuhHzu8czDrukwuUAGNNRp5g79aWA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.textmanager.interop/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.dll",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.xml",
+        "microsoft.visualstudio.textmanager.interop.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.textmanager.interop.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.TextManager.Interop.8.0/16.9.31023.347": {
+      "sha512": "TFYly4agtv62DI3w4pvWFJnCuDA0GitYeD4ZPCKiWyvBg6n7dQNGmx7cADjiw7tCG4WSypJPRzfz0Dv1TqqT2Q==",
+      "type": "package",
+      "path": "microsoft.visualstudio.textmanager.interop.8.0/16.9.31023.347",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.dll",
+        "lib/net45/Microsoft.VisualStudio.TextManager.Interop.8.0.xml",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.TextManager.Interop.8.0.xml",
+        "microsoft.visualstudio.textmanager.interop.8.0.16.9.31023.347.nupkg.sha512",
+        "microsoft.visualstudio.textmanager.interop.8.0.nuspec"
+      ]
+    },
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "type": "package",
+      "path": "netstandard.library/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/NETStandard.Library.targets",
+        "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
+        "build/netstandard2.0/ref/System.AppContext.dll",
+        "build/netstandard2.0/ref/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/ref/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/ref/System.Collections.Specialized.dll",
+        "build/netstandard2.0/ref/System.Collections.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Composition.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.EventBasedAsync.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/ref/System.ComponentModel.dll",
+        "build/netstandard2.0/ref/System.Console.dll",
+        "build/netstandard2.0/ref/System.Core.dll",
+        "build/netstandard2.0/ref/System.Data.Common.dll",
+        "build/netstandard2.0/ref/System.Data.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Contracts.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Debug.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.FileVersionInfo.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.StackTrace.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TextWriterTraceListener.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tools.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/ref/System.Diagnostics.Tracing.dll",
+        "build/netstandard2.0/ref/System.Drawing.Primitives.dll",
+        "build/netstandard2.0/ref/System.Drawing.dll",
+        "build/netstandard2.0/ref/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/ref/System.Globalization.Calendars.dll",
+        "build/netstandard2.0/ref/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/ref/System.Globalization.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.ZipFile.dll",
+        "build/netstandard2.0/ref/System.IO.Compression.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.DriveInfo.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.Watcher.dll",
+        "build/netstandard2.0/ref/System.IO.FileSystem.dll",
+        "build/netstandard2.0/ref/System.IO.IsolatedStorage.dll",
+        "build/netstandard2.0/ref/System.IO.MemoryMappedFiles.dll",
+        "build/netstandard2.0/ref/System.IO.Pipes.dll",
+        "build/netstandard2.0/ref/System.IO.UnmanagedMemoryStream.dll",
+        "build/netstandard2.0/ref/System.IO.dll",
+        "build/netstandard2.0/ref/System.Linq.Expressions.dll",
+        "build/netstandard2.0/ref/System.Linq.Parallel.dll",
+        "build/netstandard2.0/ref/System.Linq.Queryable.dll",
+        "build/netstandard2.0/ref/System.Linq.dll",
+        "build/netstandard2.0/ref/System.Net.Http.dll",
+        "build/netstandard2.0/ref/System.Net.NameResolution.dll",
+        "build/netstandard2.0/ref/System.Net.NetworkInformation.dll",
+        "build/netstandard2.0/ref/System.Net.Ping.dll",
+        "build/netstandard2.0/ref/System.Net.Primitives.dll",
+        "build/netstandard2.0/ref/System.Net.Requests.dll",
+        "build/netstandard2.0/ref/System.Net.Security.dll",
+        "build/netstandard2.0/ref/System.Net.Sockets.dll",
+        "build/netstandard2.0/ref/System.Net.WebHeaderCollection.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.Client.dll",
+        "build/netstandard2.0/ref/System.Net.WebSockets.dll",
+        "build/netstandard2.0/ref/System.Net.dll",
+        "build/netstandard2.0/ref/System.Numerics.dll",
+        "build/netstandard2.0/ref/System.ObjectModel.dll",
+        "build/netstandard2.0/ref/System.Reflection.Extensions.dll",
+        "build/netstandard2.0/ref/System.Reflection.Primitives.dll",
+        "build/netstandard2.0/ref/System.Reflection.dll",
+        "build/netstandard2.0/ref/System.Resources.Reader.dll",
+        "build/netstandard2.0/ref/System.Resources.ResourceManager.dll",
+        "build/netstandard2.0/ref/System.Resources.Writer.dll",
+        "build/netstandard2.0/ref/System.Runtime.CompilerServices.VisualC.dll",
+        "build/netstandard2.0/ref/System.Runtime.Extensions.dll",
+        "build/netstandard2.0/ref/System.Runtime.Handles.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/ref/System.Runtime.InteropServices.dll",
+        "build/netstandard2.0/ref/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Formatters.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Json.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/ref/System.Runtime.Serialization.dll",
+        "build/netstandard2.0/ref/System.Runtime.dll",
+        "build/netstandard2.0/ref/System.Security.Claims.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/ref/System.Security.Cryptography.X509Certificates.dll",
+        "build/netstandard2.0/ref/System.Security.Principal.dll",
+        "build/netstandard2.0/ref/System.Security.SecureString.dll",
+        "build/netstandard2.0/ref/System.ServiceModel.Web.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.Extensions.dll",
+        "build/netstandard2.0/ref/System.Text.Encoding.dll",
+        "build/netstandard2.0/ref/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/ref/System.Threading.Overlapped.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/ref/System.Threading.Tasks.dll",
+        "build/netstandard2.0/ref/System.Threading.Thread.dll",
+        "build/netstandard2.0/ref/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/ref/System.Threading.Timer.dll",
+        "build/netstandard2.0/ref/System.Threading.dll",
+        "build/netstandard2.0/ref/System.Transactions.dll",
+        "build/netstandard2.0/ref/System.ValueTuple.dll",
+        "build/netstandard2.0/ref/System.Web.dll",
+        "build/netstandard2.0/ref/System.Windows.dll",
+        "build/netstandard2.0/ref/System.Xml.Linq.dll",
+        "build/netstandard2.0/ref/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/ref/System.Xml.Serialization.dll",
+        "build/netstandard2.0/ref/System.Xml.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.XDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XPath.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/ref/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/ref/System.Xml.dll",
+        "build/netstandard2.0/ref/System.dll",
+        "build/netstandard2.0/ref/mscorlib.dll",
+        "build/netstandard2.0/ref/netstandard.dll",
+        "build/netstandard2.0/ref/netstandard.xml",
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.nuspec"
+      ]
+    },
+    "RestSharp/106.11.7": {
+      "sha512": "NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "type": "package",
+      "path": "restsharp/106.11.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.11.7.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6": [
+      "Microsoft.VisualStudio.Shell.Interop.11.0 >= 16.9.31023.347",
+      "RestSharp >= 106.11.7"
+    ],
+    ".NETFramework,Version=v4.8": [
+      "Microsoft.VisualStudio.Shell.Interop.11.0 >= 16.9.31023.347",
+      "RestSharp >= 106.11.7"
+    ],
+    ".NETStandard,Version=v2.0": [
+      "Microsoft.VisualStudio.Shell.Interop.11.0 >= 16.9.31023.347",
+      "NETStandard.Library >= 2.0.3",
+      "RestSharp >= 106.11.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vdb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.1.1-alpha",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\MFaaP.MFWSClient\\MFaaP.MFWSClient.csproj",
+      "projectName": "MFaaP.MFWSClient",
+      "projectPath": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\MFaaP.MFWSClient\\MFaaP.MFWSClient.csproj",
+      "packagesPath": "C:\\Users\\vdb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\MFaaP.MFWSClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "C:\\Users\\vdb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net46",
+        "net48",
+        "netstandard2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net46": {
+          "targetAlias": "net46",
+          "projectReferences": {}
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net46": {
+        "targetAlias": "net46",
+        "dependencies": {
+          "Microsoft.VisualStudio.Shell.Interop.11.0": {
+            "target": "Package",
+            "version": "[16.9.31023.347, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.7, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+      },
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Microsoft.VisualStudio.Shell.Interop.11.0": {
+            "target": "Package",
+            "version": "[16.9.31023.347, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.7, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+      },
+      "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Shell.Interop.11.0": {
+            "target": "Package",
+            "version": "[16.9.31023.347, )"
+          },
+          "NETStandard.Library": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.3, )",
+            "autoReferenced": true
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

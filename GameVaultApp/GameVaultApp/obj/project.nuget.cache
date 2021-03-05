@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "saewK6ldGyJvJTlQ6TbGkvQ+40B5A2Iy2/T9RbF9UxH39b17PiebEwh1oEDkNE/sec0FZOZ6BYjr0WAb3J7P/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vdb\\source\\repos\\GameVaultApp\\GameVaultApp\\GameVaultApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.12\\microsoft.aspnetcore.jsonpatch.3.1.12.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.12\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.12.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.9.31023.347\\microsoft.visualstudio.ole.interop.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.sdk.embedinteroptypes\\15.0.34\\microsoft.visualstudio.sdk.embedinteroptypes.15.0.34.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop\\16.9.31023.347\\microsoft.visualstudio.shell.interop.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop.10.0\\16.9.31023.347\\microsoft.visualstudio.shell.interop.10.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop.11.0\\16.9.31023.347\\microsoft.visualstudio.shell.interop.11.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.shell.interop.8.0\\16.9.31023.347\\microsoft.visualstudio.shell.interop.8.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.textmanager.interop\\16.9.31023.347\\microsoft.visualstudio.textmanager.interop.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\microsoft.visualstudio.textmanager.interop.8.0\\16.9.31023.347\\microsoft.visualstudio.textmanager.interop.8.0.16.9.31023.347.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\vdb\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

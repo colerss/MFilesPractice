@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net46;net48</TargetFrameworks>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.11.0" Version="16.9.31023.347" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <Version>1.1.1-alpha</Version>
+    <Authors>M-Files Corporation</Authors>
+    <Description>Sample .NET wrapper for the M-Files Web Service.  Not designed for production use.</Description>
+    <Copyright>Copyright (c) 2020 onwards, M-Files Corporation</Copyright>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <PackageId>MFaaP.MFWSClient</PackageId>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>M-Files REST-API MFWS wrapper</PackageTags>
+    <PackageProjectUrl>https://github.com/M-Files/Libraries.MFWSClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/M-Files/Libraries.MFWSClient</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  
+  <Target Name="PostBuild" AfterTargets="Pack" Condition=" '$(Configuration)' == 'Release'">
+    <RemoveDir Directories="..\current" />
+    <Copy SourceFiles="$(OutputPath)$(PackageId).$(PackageVersion).nupkg" DestinationFolder="..\current" />
+</Target>
+
+</Project>
